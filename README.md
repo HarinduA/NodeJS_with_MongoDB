@@ -63,7 +63,7 @@ Create a .env file in the root directory and add your MongoDB connection string:
 env
 Copy
 Edit
-DB_CONNECT=mongodb+srv://todoListApp:todo123@cluster0.fx15ieg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+DB_CONNECT=mongodb+srv://todoListApp:<your_password>@cluster0.fx15ieg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 🔒 Note: Replace with your actual MongoDB URI if it's different.
 
 4. Start the server
