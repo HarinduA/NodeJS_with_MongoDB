@@ -6,6 +6,7 @@ A simple To-Do list application built with **Node.js**, **Express**, **MongoDB**
 
 ## 📂 Project Structure
 
+```bash
 todo-app/
 ├── index.js                         # Main Express server file
 ├── models/
@@ -18,36 +19,37 @@ todo-app/
 ├── mongodbinfo.txt                # MongoDB Atlas connection info (not needed in production)
 ├── .env                           # Environment variables (e.g., DB connection string)
 └── README.md                      # Project documentation
+⚙️ Features
+Add new tasks
 
+Clean, responsive UI
 
+Data persistence using MongoDB
 
----
+Server-side rendering with EJS
 
-## ⚙️ Features
+Add date/timestamp display
 
-- Add new tasks
-- Clean, responsive UI
-- Data persistence using MongoDB
-- Server-side rendering with EJS
+Optional: Add authentication
 
----
+🧰 Technologies Used
+Node.js
 
-## 🧰 Technologies Used
+Express
 
-- **Node.js**
-- **Express**
-- **MongoDB Atlas**
-- **Mongoose**
-- **EJS**
-- **CSS**
+MongoDB Atlas
 
----
+Mongoose
 
-## 🚀 Getting Started
+EJS
 
-### 1. Clone the repository
+CSS
 
-```bash
+🚀 Getting Started
+1. Clone the repository
+bash
+Copy
+Edit
 git clone https://github.com/your-username/todo-list-app.git
 cd todo-list-app
 2. Install dependencies
@@ -62,7 +64,7 @@ env
 Copy
 Edit
 DB_CONNECT=mongodb+srv://todoListApp:todo123@cluster0.fx15ieg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-Note: Replace with your actual MongoDB URI if different.
+🔒 Note: Replace with your actual MongoDB URI if it's different.
 
 4. Start the server
 bash
@@ -70,11 +72,4 @@ Copy
 Edit
 node index.js
 5. Open in browser
-Go to: http://localhost:3000
-
-
-
-Add date/timestamp display
-
-Optional: Add authentication
-
+Visit: http://localhost:3000
