@@ -19,9 +19,7 @@ todo-app/
 ├── .env                           # Environment variables (e.g., DB connection string)
 └── README.md                      # Project documentation
 
-yaml
-Copy
-Edit
+
 
 ---
 
