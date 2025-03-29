@@ -6,7 +6,18 @@ A simple To-Do list application built with **Node.js**, **Express**, **MongoDB**
 
 ## 📂 Project Structure
 
-├── models/ │ └── TodoTask.js # Mongoose schema for tasks ├── public/ │ └── stylesheets/ │ └── style.css # App styling ├── views/ │ └── todo.ejs # Frontend template using EJS ├── .env # Environment variables (not committed) ├── index.js # Main Express server ├── mongodbinfo.txt # MongoDB connection details └── README.md # Project documentation
+todo-app/
+├── index.js                         # Main Express server file
+├── models/
+│   └── TodoTask.js                 # Mongoose model/schema for tasks
+├── public/
+│   └── stylesheets/
+│       └── style.css              # CSS styling for the frontend
+├── views/
+│   └── todo.ejs                   # EJS template for the main UI
+├── mongodbinfo.txt                # MongoDB Atlas connection info (not needed in production)
+├── .env                           # Environment variables (e.g., DB connection string)
+└── README.md                      # Project documentation
 
 yaml
 Copy
@@ -63,20 +74,7 @@ node index.js
 5. Open in browser
 Go to: http://localhost:3000
 
-🖼 UI Preview
-The app features a minimalist, centered design with Google Fonts and Font Awesome icons.
 
-css
-Copy
-Edit
-[Input Field] [➕]
-[List of tasks with ✏️ and ❌ icons]
-🛠 To-Do / Improvements
-Add functionality to edit and delete tasks
-
-Display tasks dynamically from the database
-
-Form validation and error handling
 
 Add date/timestamp display
 
